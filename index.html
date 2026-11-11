@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skylanders on PC: Core of Light</title>
+  <meta name="description" content="Native PC ports of the six Xbox 360 Skylanders games, and Core of Light, the launcher that sets them up from your own discs. No emulator, made for a controller.">
+  <meta property="og:title" content="Skylanders on PC: Core of Light">
+  <meta property="og:description" content="Native PC ports of the six Xbox 360 Skylanders games, from your own discs. No emulator, made for a controller.">
+  <meta property="og:image" content="https://tsapz.github.io/banner.png">
+  <meta name="theme-color" content="#0b1230">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+
+  <header class="hero">
+    <svg class="emblem" viewBox="0 0 200 200" aria-hidden="true">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#fff6d8" stop-opacity="0.9"/>
+          <stop offset="45%" stop-color="#ffcc40" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#ffcc40" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <circle cx="100" cy="100" r="96" fill="url(#glow)"/>
+      <circle cx="100" cy="100" r="84" fill="none" stroke="#c8a44a" stroke-opacity="0.55" stroke-width="1.5"/>
+      <g fill="#ffd25e">
+        <polygon points="100,8 112,88 100,100 88,88"/>
+        <polygon points="192,100 112,112 100,100 112,88"/>
+        <polygon points="100,192 88,112 100,100 112,112"/>
+        <polygon points="8,100 88,88 100,100 88,112"/>
+        <polygon points="160,40 108,96 100,100 104,92" opacity="0.85"/>
+        <polygon points="160,160 104,108 100,100 108,104" opacity="0.85"/>
+        <polygon points="40,160 92,104 100,100 96,108" opacity="0.85"/>
+        <polygon points="40,40 96,92 100,100 92,96" opacity="0.85"/>
+      </g>
+      <circle cx="100" cy="100" r="17" fill="#fffdf4" stroke="#ffcc40" stroke-width="3"/>
+      <g fill="#ffd25e">
+        <circle cx="160" cy="40" r="5"/><circle cx="40" cy="40" r="5"/><circle cx="160" cy="160" r="5"/>
+        <circle cx="40" cy="160" r="5"/><circle cx="184" cy="100" r="5"/><circle cx="16" cy="100" r="5"/>
+      </g>
+    </svg>
+    <p class="kicker">Skylanders</p>
+    <h1>Core of Light</h1>
+    <p class="lead">Native PC ports of all six Xbox 360 Skylanders games, and one launcher that sets them up from your own discs. No emulator, made for a controller.</p>
+    <div class="cta">
+      <a class="button primary" href="https://github.com/tsapZ/SkylandersCoreOfLight/releases">Download Core of Light</a>
+      <a class="button" href="https://github.com/users/tsapZ/projects/1">See what's coming</a>
+    </div>
+    <p class="small">Windows 10 and 11 &middot; free and open source &middot; <span id="col-version">newest version on the releases page</span></p>
+  </header>
+
+  <main>
+    <section id="games" aria-labelledby="games-title">
+      <h2 id="games-title">The six games</h2>
+      <p class="section-lead">Each one is its own native Windows program, recompiled from the Xbox 360 game. Core of Light installs and updates them for you, or take a game's setup on its own.</p>
+      <div class="games">
+        <article class="game" style="--accent: #5bb85a">
+          <p class="year">2011</p>
+          <h3>Spyro's Adventure</h3>
+          <p>Where it began: the first portal, the Ruins and Kaos.</p>
+          <p class="version" data-repo="SSARecomp"></p>
+          <p class="links"><a href="https://github.com/tsapZ/SSARecomp/releases">Releases</a><a href="https://github.com/tsapZ/SSARecomp">Source</a></p>
+        </article>
+        <article class="game" style="--accent: #e6822a">
+          <p class="year">2012</p>
+          <h3>Giants</h3>
+          <p>The Giants arrive, and the Dread-Yacht sets sail.</p>
+          <p class="version" data-repo="GiantsRecomp"></p>
+          <p class="links"><a href="https://github.com/tsapZ/GiantsRecomp/releases">Releases</a><a href="https://github.com/tsapZ/GiantsRecomp">Source</a></p>
+        </article>
+        <article class="game" style="--accent: #9a5ae0">
+          <p class="year">2013</p>
+          <h3>Swap Force</h3>
+          <p>Top and bottom halves, mixed and matched on the portal.</p>
+          <p class="version" data-repo="SwapForceRecomp"></p>
+          <p class="links"><a href="https://github.com/tsapZ/SwapForceRecomp/releases">Releases</a><a href="https://github.com/tsapZ/SwapForceRecomp">Source</a></p>
+        </article>
+        <article class="game" style="--accent: #2896dc">
+          <p class="year">2014</p>
+          <h3>Trap Team</h3>
+          <p>Catch the villains in traps and play as them.</p>
+          <p class="version" data-repo="TrapTeamRecomp"></p>
+          <p class="links"><a href="https://github.com/tsapZ/TrapTeamRecomp/releases">Releases</a><a href="https://github.com/tsapZ/TrapTeamRecomp">Source</a></p>
+        </article>
+        <article class="game" style="--accent: #dc3c3c">
+          <p class="year">2015</p>
+          <h3>SuperChargers</h3>
+          <p>Vehicles on land, at sea and in the sky.</p>
+          <p class="version" data-repo="SuperChargersRecomp"></p>
+          <p class="links"><a href="https://github.com/tsapZ/SuperChargersRecomp/releases">Releases</a><a href="https://github.com/tsapZ/SuperChargersRecomp">Source</a></p>
+        </article>
+        <article class="game" style="--accent: #f0b428">
+          <p class="year">2016</p>
+          <h3>Imaginators</h3>
+          <p>Build your own Skylander from a creation crystal.</p>
+          <p class="version" data-repo="ImaginatorsRecomp"></p>
+          <p class="links"><a href="https://github.com/tsapZ/ImaginatorsRecomp/releases">Releases</a><a href="https://github.com/tsapZ/ImaginatorsRecomp">Source</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="features" aria-labelledby="features-title">
+      <h2 id="features-title">What you get</h2>
+      <div class="features">
+        <div class="feature"><h3>Your portal and figures</h3><p>Plug in a Portal of Power and the games read your toys and save their progress on them, as on the console.</p></div>
+        <div class="feature"><h3>No portal? No problem</h3><p>When a game asks for a Skylander, a menu with every figure opens by itself. One button swaps back to the one you played before.</p></div>
+        <div class="feature"><h3>Sharper and smoother</h3><p>Up to 3x the console's 720p, 60 FPS and more, the native 3D picture, ultrawide. Or <em>As on the console</em>, if you like it the way it was.</p></div>
+        <div class="feature"><h3>Your progress is safe</h3><p>Saves and figure files are backed up before the game writes over them. Older versions are one click away.</p></div>
+        <div class="feature"><h3>Settings in every game</h3><p>F4 opens them: graphics, frame rate, language, portal, controls and more.</p></div>
+        <div class="feature"><h3>Achievements and profiles</h3><p>Each game's achievements in the launcher, and profiles with their own figures and saves for everyone at home.</p></div>
+      </div>
+    </section>
+
+    <section id="start" aria-labelledby="start-title">
+      <h2 id="start-title">Getting started</h2>
+      <ol class="steps">
+        <li><h3>Install Core of Light</h3><p>Download the setup from the <a href="https://github.com/tsapZ/SkylandersCoreOfLight/releases">releases page</a>. It isn't signed, so Windows may say "Windows protected your PC": More info, then Run anyway.</p></li>
+        <li><h3>Add your disc</h3><p>Point it at your own Xbox 360 disc as an ISO file or an unpacked folder. It sets the game up from it; no game data comes with the download.</p></li>
+        <li><h3>Play</h3><p>Pick the game and press A. Put your figures on the portal, or choose them from the menu.</p></li>
+      </ol>
+    </section>
+
+    <section id="community" aria-labelledby="community-title">
+      <h2 id="community-title">Made with the players</h2>
+      <p class="section-lead">Many things in the games came from people who play them: an idea in an issue, a bug report with a log, a test with a portal I don't have. Thank you.</p>
+      <ul class="thanks">
+        <li><a href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/78">morpheus284</a> designed the launcher's new look and asked for the monitor setting</li>
+        <li><a href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/65">SisterCrtny</a> asked for a shorter Skylander intro in every game</li>
+        <li><a href="https://github.com/tsapZ/TrapTeamRecomp/issues/22">MythicFunkable</a> tested the Xbox 360 portal</li>
+        <li><a href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/68">meijerinkmatthijs</a> brought Dutch and the portal speaker settings</li>
+        <li><a href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/77">SALEMAN4</a> asked for SuperChargers in more languages</li>
+        <li><a href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/72">jonshack1990-ship-it</a> asked for the console look</li>
+        <li><a href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/61">TheLukse</a> found the missing movie voices on headphones</li>
+        <li><a href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/64">red-panda-games</a> tracked down a freeze on the title screen</li>
+      </ul>
+      <div class="cards">
+        <a class="card" href="https://github.com/users/tsapZ/projects/1"><h3>Roadmap</h3><p>What's planned, in progress and in the next update.</p></a>
+        <a class="card" href="https://github.com/tsapZ/SkylandersCoreOfLight/discussions"><h3>Discussions</h3><p>Questions, ideas and your setups.</p></a>
+        <a class="card" href="https://github.com/tsapZ/SkylandersCoreOfLight/issues/80"><h3>Report a bug</h3><p>How to send a report that gets fixed fast.</p></a>
+      </div>
+    </section>
+
+    <section id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Questions</h2>
+      <details><summary>Is this an emulator?</summary><p>No. Each game's code is recompiled into a Windows program, so it runs natively: higher resolutions, 60 FPS and more, a settings menu, the portal menu. Emulators like Dolphin or Xenia run the original game instead; both are fine ways to play.</p></details>
+      <details><summary>What do I need?</summary><p>Windows 10 or 11 and your own Xbox 360 disc of the game, as an ISO file or an unpacked folder. A Portal of Power is optional. Spyro's Adventure and Giants take any region's disc; for the other four the European disc is the one tested so far, and testers with a US disc are very welcome.</p></details>
+      <details><summary>Linux and the Steam Deck?</summary><p>The games are Windows programs. Under Proton they run on Linux and the Steam Deck too, with a few rough edges; reports help.</p></details>
+      <details><summary>Does it cost anything?</summary><p>No. It's free and open source.</p></details>
+      <details><summary>How was it made?</summary><p>To be upfront about it: almost all of the code was written by <a href="https://claude.ai">Claude</a> in Claude Code, the recompile setup, the fixes, the portal menu, the launcher and the installers. I decided what to build, said what was broken and played the games a lot. If AI-made projects aren't your thing, that's fair.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built on <a href="https://github.com/rexglue/rexglue-sdk">ReXGlue</a>, the static recompilation SDK, and <a href="https://github.com/TheBiemGamer/skylanders-portal">skylanders-portal</a> by TheBiemGamer, whose <a href="https://github.com/TheBiemGamer/GiantsRecomp">GiantsRecomp</a> started it all.</p>
+    <p class="legal">Unofficial fan project. Not affiliated with or endorsed by Activision, Toys for Bob or Vicarious Visions. Skylanders is a trademark of its owners. No game data or artwork comes with it: the games take everything from your own discs.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
